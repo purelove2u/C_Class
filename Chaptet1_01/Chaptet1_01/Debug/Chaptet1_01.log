@@ -1,3 +1,3 @@
-﻿  Chaptet1_01.cpp
-d:\c_source\chaptet1_01\chaptet1_01\chaptet1_01.cpp(18): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+﻿  Chapter1_02.cpp
+d:\c_source\chaptet1_01\chaptet1_01\chapter1_02.cpp(5): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
   Chaptet1_01.vcxproj -> D:\C_Source\Chaptet1_01\Debug\Chaptet1_01.exe

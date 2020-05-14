@@ -48,33 +48,64 @@ void main()
 	ch = 'A';
 	printf("%d %d\n", i, i + j);
 	printf("%f\n", k);
-	printf("%c %d\n", ch, ch);*/
+	printf("%c %d\n", ch, ch);
 
-	/*char k, b, s;
-	k = 'k';
-	b = 66;
-	s = 's';
-	printf("%c, %c, %c\n", k, b, s);
-	printf("%d, %d, %d\n", k, b, b);*/
+	float i;
+	i = 3.141592;
+	printf("%15f\n", i);
+	printf("%-15f\n", i);
+	printf("%15.3f\n", i);*/
 
-	//float i;
-	//i = 3.141592;
-	//printf("%15f\n", i);
-	//printf("%-15f\n", i);
-	//printf("%15.3f\n", i);
+	//char ch = 'A';
 
-	char ch = 'A';
+	//printf("character = %c, ", ch);
+	//printf("ASCII = %d\n", ch);
+	//printf("character = %c, ASCII = %d\n", ch, ch);
+	//
+	//printf("%15d\n", 123456789);
+	//
+	//printf("%-3d", 12);
+	//printf("%-3d", 34);
+	//printf("%-3d\n", 56);
+	//printf("%-3d%-3d%-3d\n", 12, 34, 56);
 
-	printf("character = %c, ", ch);
-	printf("ASCII = %d\n", ch);
-	printf("%15d\n", 123456789);
-	printf("%-3d", 12);
-	printf("%-3d", 34);
-	printf("%-3d\n", 56);
-	printf("%3d", 12);
-	printf("%3d\n", 34);
-	printf("%06d\n", 3160);
-	printf("the end");
+	//printf("%3d", 12);
+	//printf("%3d\n", 34);
+	//printf("%3d%3d\n", 12, 34);
+
+	//printf("%06d\n", 3160);
+	//printf("the end");
+
+	int java, c, total;
+	printf("JAVA : ");
+	scanf_s("%d", &java);
+	printf("C : ");
+	scanf_s("%d", &c);
+	total = java + c;
+	printf("총점은 %d 입니다.\n", total);
+
+
+	int width, height, space;	
+	printf("사각형의 가로, 세로 길이를 입력하세요 :");
+	scanf_s("%d %d", &width, &height);
+	space = width * height;
+	printf("사각형의 넓이 = %d\n", space);
+	printf("==============================================\n");
+	printf("이름을 입력하세요 :");
+	char name[10];
+	scanf_s("%s\n", name, sizeof(name));
+	printf("성명 : %s\n", name);
+
+
+	float width, height, space, circum;
+	printf("삼각형의 밑변을 입력하세요 :");
+	scanf_s("%f", &width);
+	printf("삼각형의 높이을 입력하세요 :");
+	scanf_s("%f", &height);
+	space = (width * height) / 2;
+	circum = width * 3;
+	printf("삼각형의 넓이는 %3.2f입니다.\n", space);
+	printf("삼각형의 둘레는 %.0f입니다.\n", circum);
 }
 
 
