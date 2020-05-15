@@ -3,13 +3,14 @@
 #include <string.h>
 void main()
 {
-	//int a = 5;
-	//double b = 5.5;
-	//char str[10] = "1000";
-	//char tmp[10] = { 0, };
-	//printf("a+str = %d\n", a + atoi(str)); // 문자열 -> 정수형 변환
-	//printf("b+str = %.2f\n", b + atof(str));	// 문자열 -> 실수형 변환
-	//printf("%s\n", str); return 0;
+	int a = 5;
+	double b = 5.5;
+	char str[10] = "1000";
+	char tmp[10] = { 0, };
+	printf("a+str = %d\n", a + atoi(str)); // 문자열 -> 정수형 변환
+	printf("b+str = %.2f\n", b + atof(str));	// 문자열 -> 실수형 변환
+	printf("%s\n", str); 
+	//return ;
 
 
 	int first, second, plus, etc, minus, increase;
