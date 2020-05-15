@@ -13,7 +13,7 @@ void main()
 	//return ;
 
 
-	int first, second, plus, etc, minus, increase;
+	/*int first, second, plus, etc, minus, increase;
 	printf("첫번째 값을 입력하세요 : ");
 	scanf_s("%d", &first);
 	printf("두번째 값을 입력하세요 : ");
@@ -24,6 +24,8 @@ void main()
 	printf("덧셈결과 = %d\n", plus);
 	printf("나머지결과 = %d\n", etc);
 	printf("음수덧셈결과 = %d\n", minus);
-	printf("a의 증가값 = %d\n", increase = first + 1);
+	printf("a의 증가값 = %d\n", increase = first + 1);*/
+
+
 
 }
