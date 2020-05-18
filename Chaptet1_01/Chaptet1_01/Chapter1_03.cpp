@@ -77,19 +77,29 @@ using namespace std;
 //	cout << setiosflags(ios::left) << setw(10) << "World" << "I" << endl;
 //}
 
+//void main() {
+//	char Name[15];
+//	char address[20];
+//	cout << "이름을 입력하세요 : ";
+//	cin.get(Name, 15);
+//	cin.ignore();		// 엔터를 무시하여 연속 입력
+//	cout << "address : ";
+//	cin.get(address, 20);
+//	cout << "\nName : " << Name << endl;
+//	cout << "address : " << address << endl;
+//}
+
 void main() {
 	char Name[15];
 	char address[20];
 	cout << "이름을 입력하세요 : ";
-	cin.get(Name, 15);
-	cin.ignore();		// 엔터를 무시하여 연속 입력
+	cin.getline(Name, 15);
+	//cin.ignore();		// 엔터를 무시하여 연속 입력
 	cout << "address : ";
-	cin.get(address, 20);
+	cin.getline(address, 20);
 	cout << "\nName : " << Name << endl;
 	cout << "address : " << address << endl;
 }
-
-
 
 
 

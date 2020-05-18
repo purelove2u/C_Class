@@ -1,0 +1,4 @@
+﻿  Chapter1_04.cpp
+d:\c_source\chapter1_sol\chapter1_04\chapter1_04.cpp(6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+d:\c_source\chapter1_sol\chapter1_04\chapter1_04.cpp(7): warning C4101: 'MAX' :참조되지 않은 지역 변수입니다.
+d:\c_source\chapter1_sol\chapter1_04\chapter1_04.cpp(7): warning C4101: 'MIN' :참조되지 않은 지역 변수입니다.
