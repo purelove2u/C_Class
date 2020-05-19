@@ -63,7 +63,6 @@ void main()
 	//else
 	//{
 	//	cout << num1 << " (이)가 " << num2 << " 보다 작다.";
-
 	//}
 
 	//int n, etc;
@@ -79,7 +78,7 @@ void main()
 	//	cout << n << "(은)는 5의 배수가 되기 위해 " << etc << " 필요";
 	//}
 
-	int n, d, etc;
+	/*int n, d, etc;
 	cout << "숫자를 입력하세요 : ";
 	cin >> n;
 	cout << "분석할 배수의 숫자를 입력하세요 : ";
@@ -92,23 +91,46 @@ void main()
 	{
 		etc = d - (n % d);
 		cout << n << "(은)는 " << d << "의 배수가 되기 위해 " << etc << " 필요";
+	}*/
+
+	//char ch;
+	//cout << "문자를 입력하세요 : ";
+	//cin >> ch;
+	//if (ch >= 'A' && ch <= 'Z')	// 65에서 94
+	//	cout << "Upper case" << endl;
+	//else if (ch >= 'a' && ch <= 'z')
+	//	cout << "Lower case" << endl;
+	//else
+	//	cout << "No Good" << endl;
+
+	/*int kor, eng, tot;
+	double avg;
+	cout << "국어 점수 : ";
+	cin >> kor;
+	cout << "영어 점수 : ";
+	cin >> eng;
+	tot = kor + eng;
+	avg = tot / 2.0;
+
+	if (avg >= 90 && avg <= 100)
+	{
+		cout << "평균 평점은 A" << endl;
 	}
+	else if (avg >= 80)
+	{
+		cout << "평균 평점은 B" << endl;
+	}
+	else if (avg >= 70)
+	{
+		cout << "평균 평점은 C" << endl;
+	}
+	else if (avg >= 60)
+	{
+		cout << "평균 평점은 D" << endl;
+	}
+	else
+	{
+		cout << "평균 평점은 F" << endl;
+	}*/
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
