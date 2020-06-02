@@ -82,7 +82,7 @@ int main(void)
 	printf("%d %d %d \n", array[2][0], array[2][1], array[2][2]);
 */
 
-/*	int num1 = 10, num2 = 20, num3 = 30, num4 = 40; // int형 변수 선언
+	int num1 = 10, num2 = 20, num3 = 30, num4 = 40; // int형 변수 선언
 	int array[2][4] = { 1,2,3,4,5,6,7,8 };			// int형 배열 선언
 	int i, j;
 
@@ -95,13 +95,13 @@ int main(void)
 	{
 		for (j = 0; j < 4; j++)
 		{
-			cout << setw(4) << pt_b[i][j];
+			cout << setw(10) << &pt_b[i][j];
 		}
 		cout << endl;
 	}
 
 	return 0;
-*/
+
 }
 
 
