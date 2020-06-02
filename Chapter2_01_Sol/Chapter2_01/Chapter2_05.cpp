@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-#include <conio.h>
+//#include <conio.h>
 #include <string>
 
 using namespace std;
