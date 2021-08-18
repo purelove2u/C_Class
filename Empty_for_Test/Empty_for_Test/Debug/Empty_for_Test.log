@@ -1,0 +1,7 @@
+﻿  Source.cpp
+E:\SourceCode\C\Empty_for_Test\Empty_for_Test\Source.cpp(210,26): warning C4018: '<': signed/unsigned mismatch
+E:\SourceCode\C\Empty_for_Test\Empty_for_Test\Source.cpp(212,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\SourceCode\C\Empty_for_Test\Empty_for_Test\Source.cpp(220,26): warning C4018: '<': signed/unsigned mismatch
+E:\SourceCode\C\Empty_for_Test\Empty_for_Test\Source.cpp(222,34): warning C4018: '<': signed/unsigned mismatch
+E:\SourceCode\C\Empty_for_Test\Empty_for_Test\Source.cpp(242,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Empty_for_Test.vcxproj -> E:\SourceCode\C\Empty_for_Test\Debug\Empty_for_Test.exe
